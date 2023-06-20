@@ -1,0 +1,41 @@
+.calendario {
+    width: 670px;
+    height: 350px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.titulo {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+.segunda-a-sexta{
+    background-color: #b3b3b3;
+}
+.domingo {
+    background-color: #fff58c;
+    color: red;
+}
+.sabado {
+    background-color: #647bf5;
+    color: #020a36
+}
+#dia {
+    width:92px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20%;
+
+    border: 1px;
+    border-style: solid;
+    border-color: #7a7a79;
+}
+p{
+    text-align: center;
+}
